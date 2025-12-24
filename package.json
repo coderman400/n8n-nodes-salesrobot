@@ -3,7 +3,7 @@
 	"version": "0.1.0",
 	"description": "n8n community node for SalesRobot - LinkedIn + Email Automation and AI-Powered Outreach",
 	"license": "MIT",
-	"homepage": "https://github.com/achurox1121/n8n-nodes-salesrobot",
+	"homepage": "https://github.com/coderman400/n8n-nodes-salesrobot",
 	"keywords": [
 		"n8n-community-node-package",
 		"salesrobot",
@@ -13,12 +13,12 @@
 		"sales"
 	],
 	"author": {
-		"name": "arvind",
+		"name": "Arvind",
 		"email": "achurox1121@gmail.com"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/achurox1121/n8n-nodes-salesrobot.git"
+		"url": "https://github.com/coderman400/n8n-nodes-salesrobot"
 	},
 	"scripts": {
 		"build": "n8n-node build",
