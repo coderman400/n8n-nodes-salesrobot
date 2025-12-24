@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-salesrobot",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "n8n community node for SalesRobot - LinkedIn + Email Automation and AI-Powered Outreach",
 	"license": "MIT",
 	"homepage": "https://github.com/coderman400/n8n-nodes-salesrobot",
