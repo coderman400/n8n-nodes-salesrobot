@@ -1,0 +1,23 @@
+{
+	"node": "n8n-nodes-salesrobot",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Marketing", "Sales & CRM", "Developer Tools"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://github.com/achurox1121/n8n-nodes-salesrobot?tab=readme-ov-file#credentials"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://github.com/achurox1121/n8n-nodes-salesrobot?tab=readme-ov-file"
+			}
+		],
+		"apiDocumentation": [
+			{
+				"url": "https://solar-robot-476240.postman.co/workspace/salesrobot~11cc6376-ed3b-435e-926a-0a10deb24cd7/collection/10815846-ab263f3a-130f-4de2-a05f-b824b4877a20"
+			}
+		]
+	}
+}
