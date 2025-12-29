@@ -39,12 +39,9 @@ export class SalesrobotApi implements ICredentialType {
 
 	test: ICredentialTestRequest = {
 		request: {
-			baseURL: 'https://app.salesrobot.co',
-			url: '/public/getDomainConfig/asdfghtjopokisjkldskskdsk',
+			baseURL: 'https://api.boomtechinc.com',
+			url: '/api/exposedApi/apiKey',
 			method: 'GET',
-			qs: {
-				domain: 'app.salesrobot.co',
-			},
 		},
 	};
 }
