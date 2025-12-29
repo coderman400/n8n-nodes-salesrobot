@@ -26,7 +26,6 @@ export class Salesrobot implements INodeType {
 			{
 				name: 'salesrobotApi',
 				required: true,
-				testedBy: 'salesrobot',
 			},
 		],
 		requestDefaults: {

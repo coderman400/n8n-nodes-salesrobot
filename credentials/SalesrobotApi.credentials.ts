@@ -1,11 +1,15 @@
-import type { IAuthenticateGeneric, Icon, ICredentialType, INodeProperties } from 'n8n-workflow';
+import type {
+	IAuthenticateGeneric,
+	ICredentialTestRequest,
+	ICredentialType,
+	Icon,
+	INodeProperties,
+} from 'n8n-workflow';
 
 export class SalesrobotApi implements ICredentialType {
 	name = 'salesrobotApi';
 
 	displayName = 'Salesrobot API';
-
-	testedBy = 'salesrobot';
 
 	icon: Icon = { light: 'file:../icons/salesrobot.svg', dark: 'file:../icons/salesrobot.dark.svg' };
 
@@ -29,6 +33,17 @@ export class SalesrobotApi implements ICredentialType {
 		properties: {
 			headers: {
 				Authorization: '={{$credentials.apiKey}}',
+			},
+		},
+	};
+
+	test: ICredentialTestRequest = {
+		request: {
+			baseURL: 'https://app.salesrobot.co',
+			url: '/public/getDomainConfig/asdfghtjopokisjkldskskdsk',
+			method: 'GET',
+			qs: {
+				domain: 'app.salesrobot.co',
 			},
 		},
 	};
