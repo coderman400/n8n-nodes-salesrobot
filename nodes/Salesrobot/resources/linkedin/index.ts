@@ -19,6 +19,7 @@ export const linkedinDescription: INodeProperties[] = [
 			{
 				name: 'Get Accounts',
 				value: 'getAccounts',
+				// eslint-disable-next-line n8n-nodes-base/node-param-operation-option-action-miscased
 				action: 'Get LinkedIn accounts',
 				description: 'Get all connected LinkedIn accounts',
 				routing: {
@@ -31,6 +32,7 @@ export const linkedinDescription: INodeProperties[] = [
 			{
 				name: 'Sync Inbox',
 				value: 'syncInbox',
+				// eslint-disable-next-line n8n-nodes-base/node-param-operation-option-action-miscased
 				action: 'Sync LinkedIn inbox',
 				description: 'Synchronize LinkedIn inbox messages',
 				routing: {
