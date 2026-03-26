@@ -19,7 +19,7 @@ export const linkedinDescription: INodeProperties[] = [
 			{
 				name: 'Get Accounts',
 				value: 'getAccounts',
-				action: 'Get linked in accounts',
+				action: 'Get LinkedIn accounts',
 				description: 'Get all connected LinkedIn accounts',
 				routing: {
 					request: {
@@ -31,7 +31,7 @@ export const linkedinDescription: INodeProperties[] = [
 			{
 				name: 'Sync Inbox',
 				value: 'syncInbox',
-				action: 'Sync linked in inbox',
+				action: 'Sync LinkedIn inbox',
 				description: 'Synchronize LinkedIn inbox messages',
 				routing: {
 					request: {

@@ -128,7 +128,7 @@ export const aiPersonalizationDescription: INodeProperties[] = [
 				routing: {
 					request: {
 						method: 'GET',
-						url: '/sequence/ai_variable',
+						url: '/sequence/smart_comment_variable',
 					},
 				},
 			},
