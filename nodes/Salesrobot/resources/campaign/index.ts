@@ -1,4 +1,5 @@
 import type { INodeProperties } from 'n8n-workflow';
+import { campaignAddProspectDescription } from './addProspect';
 import { campaignCreateDescription } from './create';
 import { campaignListDescription } from './list';
 import { campaignStartDescription } from './start';
@@ -27,6 +28,18 @@ export const campaignDescription: INodeProperties[] = [
 			show: showOnlyForCampaign,
 		},
 		options: [
+			{
+				name: 'Add Prospect',
+				value: 'addProspect',
+				action: 'Add a single prospect to campaign',
+				description: 'Add a single prospect to a campaign using their LinkedIn profile',
+				routing: {
+					request: {
+						method: 'POST',
+						url: '/add-from-csv',
+					},
+				},
+			},
 			{
 				name: 'Add Sequence Steps',
 				value: 'addSequence',
@@ -191,6 +204,7 @@ export const campaignDescription: INodeProperties[] = [
 		],
 		default: 'list',
 	},
+	...campaignAddProspectDescription,
 	...campaignCreateDescription,
 	...campaignListDescription,
 	...campaignImportProspectsDescription,
