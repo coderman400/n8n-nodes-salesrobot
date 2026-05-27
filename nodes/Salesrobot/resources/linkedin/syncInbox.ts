@@ -40,4 +40,36 @@ export const linkedinSyncInboxDescription: INodeProperties[] = [
 			},
 		},
 	},
+	{
+		displayName: 'Page Size',
+		name: 'size',
+		type: 'number',
+		default: 20,
+		displayOptions: {
+			show: showOnlyForSyncInbox,
+		},
+		description: 'Number of conversations to return per page',
+		routing: {
+			send: {
+				type: 'query',
+				property: 'size',
+			},
+		},
+	},
+	{
+		displayName: 'Page Number',
+		name: 'page',
+		type: 'number',
+		default: 0,
+		displayOptions: {
+			show: showOnlyForSyncInbox,
+		},
+		description: 'Zero-based page number to retrieve',
+		routing: {
+			send: {
+				type: 'query',
+				property: 'page',
+			},
+		},
+	},
 ];
